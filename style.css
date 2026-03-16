@@ -1,0 +1,12 @@
+.titulo-historia {
+    color: red;
+}
+
+.titulo-hobbie {
+    color: blue;
+}
+
+article section p span{
+    font-weight: bold;
+    font-size: larger;
+}

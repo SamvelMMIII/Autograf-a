@@ -1,21 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--RUTA DEL STYLE.CSS-->
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ol>
-                <li>Mi historia</li>
-                <li>Mis hobbies</li>
-                <li>Mis sueños</li>
-            </ol>
-        </nav>
+      <nav>
+        <ol>
+          <li>Mi historia</li>
+          <li>Mis hobbies</li>
+          <li>Mis sueños</li>
+        </ol>
+      </nav>
     </header>
-</body>
+
+    <main>
+      <article>
+        <section>
+        <h2 class ="titulo-historia">Mi historia</h2>
+
+        <!--ALT + SHIFT + F CONFIGURAR PRETTIER-->
+        <!--EL SPAN SE APLICA A LOS SPAN QUE CUMPLEN LA REGLA: EJEMPLO "article section p span"-->
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi,
+          aspernatur adipisci quos, dicta esse <span>dolores minus</span>, impedit blanditiis
+          hic exercitationem asperiores maiores ex! Quaerat reiciendis harum
+          sapiente tempore laudantium voluptas. Beatae dolorum nihil animi
+          cupiditate doloremque, corporis numquam voluptatibus, sunt eum vero
+          fuga dolor rem quod voluptas iure? Earum ipsam fugit accusamus dolorem
+          nulla architecto eius eveniet, similique eaque rerum! Fuga, commodi
+          nemo. Delectus eveniet fugit, velit at debitis vitae unde harum,
+          quisquam sint aliquid nemo perferendis nostrum enim placeat fugiat
+          porro? Commodi, similique! Distinctio soluta nesciunt id ullam
+          officia!
+        </p>
+        </section>
+
+
+        <section>
+          <h2 class="titulo-hobbie">Mis hobbies</h2>
+          <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi,
+          aspernatur adipisci quos, dicta esse dolores minus, impedit blanditiis
+          hic exercitationem asperiores maiores ex! Quaerat reiciendis harum
+          sapiente tempore laudantium voluptas. Beatae dolorum nihil animi
+          cupiditate doloremque, corporis numquam voluptatibus, sunt eum vero
+          fuga dolor rem quod voluptas iure? Earum ipsam fugit accusamus dolorem
+          nulla architecto eius eveniet, similique eaque rerum! Fuga, commodi
+          nemo. Delectus eveniet fugit, velit at debitis vitae unde harum,
+          quisquam sint aliquid nemo perferendis nostrum enim placeat fugiat
+          porro? Commodi, similique! Distinctio soluta nesciunt id ullam
+          officia!
+        </p>
+        </section>
+      </article>
+
+<!--NO ES BUENA PRACTICA HACER EL STYLE ACÁ-->
+    </main>
+  </body>
 </html>
 
 <!--
@@ -32,5 +78,12 @@ PS F:\Sam> git add .
 PS F:\Sam> git commit -m "feat: add navbar with links"
 [master 586ada6] feat: add navbar with links
  1 file changed, 4 insertions(+), 2 deletions(-)
-PS F:\Sam> gi push origin master
+PS F:\Sam> git push origin master
+
+el id solo se debe usar cuando se quieren valores unicos, lo ideal es usar  class
+. siempre se utiliza al inicio en .css para clase y con id es #
+
+creare un nuevo repositorio en la casa y en clase lo clonaré para trabajarlo con css
+subir mi autobiografia a un github
+
 -->
